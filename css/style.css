@@ -1,0 +1,343 @@
+#container {
+	width: 100%;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgb(58, 60, 63);
+	background-color: white;
+}
+
+h1 {
+	text-indent: -9999px;
+}
+
+header{
+	width: 100%;
+}
+
+.menuFixed{
+	background-color: rgba(255, 255, 255, .95);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.mainMenu {
+	text-align: right;
+	padding: 0% 3% 3% 0%;
+	margin-right: 6%;
+}
+
+.mainMenu li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: .95rem;
+	margin: 0% .5%;
+	text-align: right;
+}
+
+.mainMenu img {
+	width: 13px;
+}
+
+.mainMenu .twitter {
+	width: 16px;
+}
+
+.mainMenu a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.grid_gallery {
+	width: 90%;
+	margin: 0% 0% 0% 10%;
+}
+
+.grid_gallery li{
+	display: inline-block;
+}
+
+.work {
+	width: 30%;
+}
+
+.workTrans{
+	opacity: .6;
+}
+
+.button-group{
+	width: 90%;
+	margin: 0% 0% 0% 26.5%;
+}
+
+.button{
+	width: 12%;
+	border: none;
+	border-bottom: 3px solid rgb(58, 60, 63);
+	margin: 3% .5%;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	font-size: .8rem;
+	text-transform: uppercase;
+	padding: .75%;
+	background-color: white;
+}
+
+:focus {
+	outline: none;
+}
+
+.aboutPage {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	width: 80%;
+	margin: 0% auto;
+	font-style: italic;
+	font-weight: 500;
+
+}
+
+h2 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 2rem;
+	padding: 5% 5% 5% 0%;
+	font-style: normal;
+	
+}
+
+
+.two-col {
+	width: 80%;
+	margin: 5% auto;
+	font-size: .9rem;
+	text-align: justify;
+	line-height: 1.4rem; 
+       -moz-column-count: 2;
+       -moz-column-gap: 15px;
+       -webkit-column-count: 2;
+       -webkit-column-gap : 15px;
+
+}
+
+.resume {
+	width: 80%;
+	margin: 0 auto;
+	font-size: .8rem;
+}
+
+.resume li {
+	text-indent: 1rem;
+}
+
+.portfolio_page {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.portfolio_page p {
+	font-size: .9rem;
+	width: 60%;
+}
+
+.portfolio_page img {
+	width: 100%;
+	margin-top: 4%;
+}
+
+.saisicons li {
+	display: inline;
+}
+
+.saisicons img {
+	width: 20%;
+}
+
+footer p {
+	width: 80%;
+	font-size: .7rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 3% auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+	#container {
+	width: 100%;
+	}
+
+	body {
+		font-family: 'Work Sans', sans-serif;
+		font-size: 14px;
+		line-height: 19px;
+		color: rgb(58, 60, 63);
+		background-color: white;
+	}
+
+	h1 {
+		text-indent: -9999px;
+	}
+
+	header{
+		width: 100%;
+	}
+
+	.menuFixed{
+		background-color: rgba(255, 255, 255, .95);
+		position: static;
+		top: 0;
+		left: 0;
+		z-index: 100;
+	}
+
+	.mainMenu {
+		text-align: right;
+		padding: 0% 3% 3% 0%;
+		margin-right: 6%;
+	}
+
+	.mainMenu li {
+		display: inline-block;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: .95rem;
+		margin: 0% .5%;
+		text-align: right;
+	}
+
+	.mainMenu img {
+		width: 13px;
+	}
+
+	.mainMenu .twitter {
+		width: 16px;
+	}
+
+	.mainMenu a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.grid_gallery {
+		width: 90%;
+		margin: 0% 0% 0% 10%;
+	}
+
+	.grid_gallery li{
+		display: inline-block;
+	}
+
+	.work {
+		width: 45%;
+	}
+
+	.workTrans{
+		opacity: .6;
+	}
+
+	.button-group{
+		width: 90%;
+		margin: 0% 0% 0% 0%;
+		display: none;
+	}
+
+	.button{
+		width: 12%;
+		border: none;
+		border-bottom: 3px solid rgb(58, 60, 63);
+		margin: 3% .5%;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 500;
+		font-size: .8rem;
+		text-transform: uppercase;
+		padding: .75%;
+		background-color: white;
+	}
+
+	:focus {
+		outline: none;
+	}
+
+	.aboutPage {
+		font-size: 1.3rem;
+		line-height: 1.7rem;
+		width: 80%;
+		margin: 0% auto;
+		font-style: italic;
+		font-weight: 500;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+		text-transform: uppercase;
+		font-weight: 600;
+		padding: 5% 5% 5% 0%;
+		font-style: normal;	
+	}
+
+	.two-col {s
+		width: 80%;
+		margin: 5% auto;
+		font-size: .9rem;
+		line-height: 1.4rem; 
+	       -moz-column-count: 1;
+	       -moz-column-gap: 0px;
+	       -webkit-column-count: 1;
+	       -webkit-column-gap : 0px;
+	}
+
+	.resume {
+		width: 80%;
+		margin: 0 auto;
+		font-size: .8rem;
+	}
+
+	.resume li {
+		text-indent: 1rem;
+	}
+
+	.portfolio_page {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.portfolio_page p {
+		font-size: .9rem;
+		width: 60%;
+	}
+
+	.portfolio_page img {
+		width: 100%;
+		margin-top: 4%;
+	}
+
+	.portfolio_page img .cards {
+		width: 80%;
+		margin-top: 4%;
+	}
+
+	footer p {
+		width: 80%;
+		font-size: .7rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 3% auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.work {
+		width: 90%;
+	}
+}
+
+
+
